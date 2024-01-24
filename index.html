@@ -36,7 +36,7 @@
 <body class="font-manrope p-3">
     <header>
         <nav>
-            <div class="navbar bg-base-100 w-[1200px] ">
+            <div class="navbar bg-base-100 lg:w-[1200px] ">
                 <div class="navbar-start">
                   <div class="dropdown">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -62,7 +62,9 @@
                   </ul>
                 </div>
                 <div class="navbar-end gap-6">
-                  <img src="/cad-icon/Frame (6).png" alt="">
+                 <div class= "hidden lg:block"> 
+                  <img class="" src="/cad-icon/Frame (6).png" alt="">
+                </div>
                   <a class="btn btn-error">Get Ticket</a>
                 </div>
               </div>
@@ -76,7 +78,31 @@
                     <a href="#slide4" class="btn btn-circle bg-black text-white">❮</a> 
                     <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
                   </div>
-                </div> 
+                </div>                
+                 <div id="slide2" class="carousel-item relative w-full">
+                  <img src="/Images/1.png" class="w-full" />
+                  <div class="absolute transform ms:-translate-y-1/2  ms:right-1/2 ms:top-10
+                   lg:-translate-y-1/2 lg:left-5 lg:right-5 lg:bottom-10">
+                    <a href="#slide1" class="btn btn-circle bg-black text-white">❮</a> 
+                    <a href="#slide3" class="btn btn-circle bg-black text-white">❯</a>
+                  </div>
+                </div>                
+                 <div id="slide3" class="carousel-item relative w-full">
+                  <img src="/Images/1.png" class="w-full" />
+                  <div class="absolute transform ms:-translate-y-1/2  ms:right-1/2 ms:top-10
+                   lg:-translate-y-1/2 lg:left-5 lg:right-5 lg:bottom-10">
+                    <a href="#slide4" class="btn btn-circle bg-black text-white">❮</a> 
+                    <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
+                  </div>
+                </div>                
+                 <div id="slide4" class="carousel-item relative w-full">
+                  <img src="/Images/1.png" class="w-full" />
+                  <div class="absolute transform ms:-translate-y-1/2  ms:right-1/2 ms:top-10
+                   lg:-translate-y-1/2 lg:left-5 lg:right-5 lg:bottom-10">
+                    <a href="#slide3" class="btn btn-circle bg-black text-white">❮</a> 
+                    <a href="#slide1" class="btn btn-circle bg-black text-white">❯</a>
+                  </div>
+                </div>                
             </div>
             <div class="lg:h-40 lg:w-2/4 mx-auto text-white p-7 ms:translate-y-52 ms:translate-x-2 lg:translate-x-72 lg:-translate-y-52   bg-black">
                 <h2 class="text-2xl">Meet all the heroes from the field</h2><br>
@@ -95,7 +121,7 @@
             <div class="grid grid-col-1 lg:grid-col-4">
               <div class="card w-96 bg-base-100  items-center pt-3">
                   <div class="w-20 h-20 bg-red-800 text-center rounded-full"> 
-                    <div class=" w-14 h-14 bg-white text-center rounded-full">97%</div> 
+                    <div class=" w-16 h-16 bg-white text-center justify-center rounded-full">97%</div> 
                   </div>
                   <div class="card-body items-center text-center">
                     <h2 class="card-title">Prayer Facility</h2>
@@ -106,7 +132,7 @@
               <div class="grid grid-col-1 lg:grid-col-4">
               <div class="card w-96 bg-base-100  items-center pt-3">
                   <div class="w-20 h-20 bg-blue-800 text-center rounded-full"> 
-                    <div class=" w-14 h-14 bg-white text-center rounded-full">90%</div> 
+                    <div class=" w-16 h-16 bg-white text-center rounded-full">90%</div> 
                   </div>
                   <div class="card-body items-center text-center">
                     <h2 class="card-title">Prayer Facility</h2>
@@ -117,7 +143,7 @@
             <div class="grid grid-col-1 lg:grid-col-4">
               <div class="card w-96 bg-base-100  items-center pt-3">
                   <div class="w-20 h-20 bg-green-500 text-center rounded-full"> 
-                    <div class=" w-14 h-14 bg-white text-center rounded-full">86%</div> 
+                    <div class=" w-16 h-16 bg-white text-center rounded-full">86%</div> 
                   </div>
                   <div class="card-body items-center text-center">
                     <h2 class="card-title">Prayer Facility</h2>
@@ -128,7 +154,7 @@
            <div class="grid grid-col-1 lg:grid-col-4">
               <div class="card w-96 bg-base-100  items-center pt-3">
                   <div class="w-20 h-20 bg-amber-500 text-center rounded-full"> 
-                    <div class=" w-14 h-14 bg-white text-center rounded-full">92%</div> 
+                    <div class=" w-16 h-16 bg-white text-center rounded-full">92%</div> 
                   </div>
                   <div class="card-body items-center text-center">
                     <h2 class="card-title">Prayer Facility</h2>
@@ -174,10 +200,9 @@
             <div class="hero min-h-screen" style="background-image: url(/Images/4.png);">
               <div class="hero-overlay bg-opacity-60"></div>
               <div class="hero-content  text-neutral-content">
-                <div class="max-w-md">
+                <div class="">
                   <h1 class="mb-5 text-5xl font-bold">Junior Program</h1>
-                  <p class="mb-5">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
-                    enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+                  <p class="mb-5 ">At Hockeys we are an independent agency proud of our innovative, professional and progressive reputation, spanning over 5 decades. As a market leader in St Leonards and surrounding suburbs, the Hockeys name has been synonymous with exceptional real estate results since 1969.</p>
                   <button class="btn btn-error">Register Now!</button>
                 </div>
               </div>
@@ -336,7 +361,7 @@
           <div class="text-center">
             <h1 class="text-6xl">Clients Question</h1>
             <p class="text-4xl">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
-          </div>
+          </div><br><br>
           <div class="grid  lg:grid-cols-2">
             <div class="lg:pl-40"><img src="/Images/11.png" alt=""></div>
             <div class="row-span-2">
